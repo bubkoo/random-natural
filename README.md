@@ -60,9 +60,9 @@ Maximum integer to return.
 
 **Note:** 
 
-- Negative `min` or `max` will be treat as `0`
-- Non-numeric `min` or `max` will be treat as `0`
-- If `min` greater than `max`, we will swap each other
+- Negative `min` or `max` will be treat as `0`.
+- Non-numeric `min` or `max` will be treat as `0`.
+- If `min` greater than `max`, they will be swapped with each other.
 
 ## Related
 
