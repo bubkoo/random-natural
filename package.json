@@ -23,6 +23,12 @@
     "randomize",
     "rand",
     "int",
+    "integer",
+    "num",
+    "number",
+    "max",
+    "min",
+    "math",
     "natural",
     "number"
   ],
