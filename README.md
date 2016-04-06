@@ -2,6 +2,13 @@
 
 > Generate a random [natural number](https://en.wikipedia.org/wiki/Natural_number).
 
+
+[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/random-natural/blob/master/LICENSE)
+
+[![build:?](https://img.shields.io/travis/bubkoo/random-natural/master.svg?style=flat-square)](https://travis-ci.org/bubkoo/random-natural)
+[![coverage:?](https://img.shields.io/coveralls/bubkoo/random-natural/master.svg?style=flat-square)](https://coveralls.io/github/bubkoo/random-natural)
+
+
 ## Install
 
 ```
