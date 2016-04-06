@@ -22,15 +22,14 @@
     "random",
     "randomize",
     "rand",
+    "natural",
     "int",
     "integer",
     "num",
     "number",
     "max",
     "min",
-    "math",
-    "natural",
-    "number"
+    "math"
   ],
   "license": "MIT",
   "bugs": {
