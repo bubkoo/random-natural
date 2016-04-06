@@ -46,14 +46,14 @@ Returns an integer from `min` to `max`.
 
 #### min
 
-Type: `Number`  
+Type: `Int`  
 Default: `0`
 
 Minimum integer to return.
 
 #### max
 
-Type: `Number`  
+Type: `Int`  
 Default: `1`
 
 Maximum integer to return.
