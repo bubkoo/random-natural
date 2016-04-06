@@ -1,13 +1,10 @@
 'use strict';
 
-
 function fixme(val) {
 
-  if (typeof val === 'number') {
-    return val;
+  if (typeof val !== 'number') {
+    val = parseInt(val, 10);
   }
-
-  val = parseInt(val, 10);
 
   return isNaN(val) || !isFinite(val) ? 0 : val;
 }

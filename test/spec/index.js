@@ -6,7 +6,7 @@ describe('random-natural', function () {
 
   var randomNatural = require('../../index');
 
-  it('randomNatural() should always be 0', function () {
+  it('randomNatural()', function () {
     expect(randomNatural()).to.be.a('number');
     expect(randomNatural()).to.be.oneOf([0, 1]);
   });
@@ -35,8 +35,8 @@ describe('random-natural', function () {
   });
 
   it('randomNatural("abc", {a: 1})', function () {
-    expect(randomNatural()).to.be.a('number');
-    expect(randomNatural()).to.be.oneOf([0, 1]);
+    expect(randomNatural("abc", {a: 1})).to.be.a('number');
+    expect(randomNatural("abc", {a: 1})).to.be.oneOf([0, 1]);
   });
 
   it('randomNatural(0, 0) should always be 0', function () {
