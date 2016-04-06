@@ -58,7 +58,7 @@ Default: `1`
 
 Maximum integer to return.
 
-**Note:** 
+*Note:* 
 
 - Negative `min` or `max` will be treat as `0`.
 - Non-numeric `min` or `max` will be treat as `0`.
