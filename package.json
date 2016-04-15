@@ -11,10 +11,6 @@
     "test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
     "prepublish": "npm test"
   },
-  "author": {
-    "name": "bubkoo",
-    "email": "bubkoo.wy@gmail.com"
-  },
   "keywords": [
     "generator",
     "generate",
@@ -31,20 +27,28 @@
     "min",
     "math"
   ],
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bubkoo/random-natural/issues"
+    "url": "https://github.com/mock-end/random-natural/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bubkoo/random-natural.git"
+    "url": "git+https://github.com/mock-end/random-natural.git"
   },
-  "homepage": "https://github.com/bubkoo/random-natural#readme",
+  "homepage": "https://github.com/mock-end/random-natural#readme",
   "devDependencies": {
     "jshint": "^2.9.1",
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "clamp": "^1.0.1",
+    "random-integral": "^1.0.0"
   }
 }
