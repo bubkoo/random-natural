@@ -17,6 +17,9 @@ $ npm install --save random-natural
 
 ## Usage
 
+> For more use-cases see the [tests](https://github.com/bubkoo/random-natural/blob/master/test/spec/index.js)
+
+
 ```js
 var randomNatural = require('random-natural');
 
@@ -64,5 +67,13 @@ Maximum integer to return.
 - Non-numeric `min` or `max` will be treat as `0`.
 - If `min` greater than `max`, they will be swapped with each other.
 
+
+
 ## Related
 
+
+## Contributing
+
+Pull requests and stars are highly welcome.
+
+For bugs and feature requests, please [create an issue](https://github.com/bubkoo/random-natural/issues/new).
