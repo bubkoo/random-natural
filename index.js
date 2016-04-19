@@ -26,8 +26,8 @@ module.exports = function (min, max) {
     min = 0;
     max = MAX_SAFE_INTEGER;
   } else if (length === 1) {
-    min = 0;
     max = fixme(min);
+    min = 0;
   } else {
     min = fixme(min);
     max = fixme(max);
