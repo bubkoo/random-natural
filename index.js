@@ -1,21 +1,22 @@
 'use strict';
 
 
-var clamp     = require('clamp');
-var randomInt = require('random-integral');
+var clamp        = require('clamp');
+var toInteger    = require('to-integer');
+var randomInt    = require('random-integral');
+var MAX_SAFE_INT = require('max-safe-int');
 
-var MAX_SAFE_INTEGER = 9007199254740991;
-
-function fixme(val) {
+function fixme(val, min) {
 
   if (typeof val !== 'number') {
-    val = parseInt(val, 10);
+    val = toInteger(val);
   }
 
-  val = isNaN(val) || !isFinite(val) ? 0 : val;
+  if (isNaN(val) || !isFinite(val)) {
+    val = min ? 0 : MAX_SAFE_INT;
+  }
 
-  return clamp(val, 0, MAX_SAFE_INTEGER);
-
+  return clamp(val, 0, MAX_SAFE_INT);
 }
 
 module.exports = function (min, max) {
@@ -23,14 +24,20 @@ module.exports = function (min, max) {
   var length = arguments.length;
 
   if (length === 0) {
+
     min = 0;
-    max = MAX_SAFE_INTEGER;
+    max = MAX_SAFE_INT;
+
   } else if (length === 1) {
-    max = fixme(min);
+
+    max = fixme(min, false);
     min = 0;
+
   } else {
-    min = fixme(min);
-    max = fixme(max);
+
+    min = fixme(min, true);
+    max = fixme(max, false);
+
   }
 
   return randomInt(min, max);

@@ -14,22 +14,19 @@ describe('random-natural', function () {
   });
 
   it('randomNatural(2, 10)', function () {
-    expect(randomNatural(2, 10)).to.be.at.least(2);
-    expect(randomNatural(2, 10)).be.be.at.most(10);
+    expect(randomNatural(2, 10)).to.be.within(2, 10);
   });
 
   it('randomNatural(10, 2)', function () {
-    expect(randomNatural(10, 2)).to.be.at.least(2);
-    expect(randomNatural(10, 2)).be.be.at.most(10);
+    expect(randomNatural(10, 2)).to.be.within(2, 10);
   });
 
   it('randomNatural("2", "10")', function () {
-    expect(randomNatural("2", "10")).to.be.at.least(2);
-    expect(randomNatural("2", "10")).be.be.at.most(10);
+    expect(randomNatural("2", "10")).to.be.within(2, 10);
   });
 
   it('randomNatural("abc", {a: 1})', function () {
-    expect(randomNatural("abc", { a: 1 })).to.be.equal(0);
+    expect(randomNatural("abc", { a: 1 })).to.be.a('number');
   });
 
   it('randomNatural(0, 0) should always be 0', function () {
@@ -51,4 +48,5 @@ describe('random-natural', function () {
   it('randomNatural(-1, 0) should always be 0', function () {
     expect(randomNatural(-1, 0)).to.equal(0);
   });
+
 });
