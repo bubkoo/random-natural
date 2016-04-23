@@ -29,6 +29,7 @@ var randomNatural = require('random-natural');
 // - randomNatural(min, max)
 
 randomNatural();
+// default range: 0 to 9007199254740992
 // => randomInt(0, 9007199254740991);
 // => 9527
 
@@ -44,8 +45,6 @@ These `min` and `max` are **inclusive**, so they are included in the range.
 
 This means `randomNatural(1, 3)` would return either `1`, `2`, or `3`.
 
-
-## Related
 
 ## Contributing
 
