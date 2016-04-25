@@ -23,6 +23,10 @@ var randomNatural = require('random-natural');
 
 // API
 // - randomNatural([options])
+
+// options
+// - min
+// - max
 ```
 
 By default it will return an integer between `0` and `9007199254740992`:
