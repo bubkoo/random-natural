@@ -63,10 +63,11 @@ min <= random number <= max
 ## Related
 
 - [random-integral](https://github.com/mock-end/random-integral) - Return a random integer.
+- [random-decimal](https://github.com/mock-end/random-decimal) - Return a random decimal.
+- [random-floating](https://github.com/mock-end/random-floating) - Return a random floating point number.
+- [random-index](https://github.com/mock-end/random-index) - Return a random array-like index.
 - [random-bool](https://github.com/mock-end/random-bool) - Return a random boolean (true/false).
 - [random-char](https://github.com/mock-end/random-char) - Return a random char.
-- [random-index](https://github.com/mock-end/random-index) - Return a random array-like index.
-- [random-decimal](https://github.com/mock-end/random-decimal) - Return a random decimal.
 - [random-binary](https://github.com/mock-end/random-binary) - Return a random binary number.
 - [random-octal](https://github.com/mock-end/random-octal) - Return a random octal number.
 - [random-hexadecimal](https://github.com/mock-end/random-hexadecimal) - Return a random hexadecimal number.
