@@ -58,6 +58,7 @@ min <= random number <= max
 
 ## Related
 
+|---|---|---|
 | [random-integral](https://github.com/mock-end/random-integral) | Return a random integer.  |  
 [![build:?](https://img.shields.io/travis/mock-end/random-integral/master.svg?style=flat-square)](https://travis-ci.org/mock-end/random-integral)
 [![coverage:?](https://img.shields.io/coveralls/mock-end/random-integral/master.svg?style=flat-square)](https://coveralls.io/github/mock-end/random-integral) | 
