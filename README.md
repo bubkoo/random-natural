@@ -36,7 +36,7 @@ randomNatural();
 // => 9527
 ```
 
-Can optionally provide min and max:
+Can optionally provide `min` and `max`:
 
 ```js
 randomNatural({ max: 5 });
