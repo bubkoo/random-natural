@@ -1,6 +1,6 @@
 {
   "name": "random-natural",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Return a natural number.",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,7 @@
   },
   "keywords": [
     "natural",
-    "int",
     "integer",
-    "num",
     "number",
     "generator",
     "generate",
@@ -50,9 +48,7 @@
     "onchange": "^2.4.0"
   },
   "dependencies": {
-    "clamp": "^1.0.1",
     "max-safe-int": "^1.0.0",
-    "random-integral": "^1.0.2",
-    "to-integer": "^1.0.1"
+    "random-integral": "^1.0.3"
   }
 }
